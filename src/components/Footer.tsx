@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="flex items-center space-x-4">
             <img 
-              src="/tscc-logo.png" 
+              src={`${import.meta.env.BASE_URL}tscc-logo.png`} 
               alt="TS Construction Company Logo" 
               className="h-8 bg-white p-1 rounded"
             />

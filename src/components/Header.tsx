@@ -38,7 +38,7 @@ const Header = () => {
           <div className="flex justify-between items-center py-4">
             <Link to="/" className="flex items-center">
               <img 
-                src="/tscc-logo.png" 
+                src={`${import.meta.env.BASE_URL}tscc-logo.png`} 
                 alt="TS Construction Company Logo" 
                 className="h-12 md:h-16"
               />
